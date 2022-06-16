@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kdam Thmor Pro', serif;
+}
+
+body{
+    background-color: rgb(71, 71, 245);
+}
+
+section{
+    margin-left: 25%;
+    width: max-content;
+}
+
+div{
+    margin-top: 25%;
+    padding-top: 1px;
+    background-color: white;
+}
+
+form{
+    margin: 40px;
+}
+
+h2{
+    
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text{
+    height: 40px;
+    width: 600px;
+    padding-left: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.Forgot{
+    margin-left: 380px;
+}
+
+.submit{
+    margin-bottom: 30px;
+    height: 50px;
+    width: 610px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}

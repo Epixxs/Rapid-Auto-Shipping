@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    background-color: rgba(112, 214, 255, 0.863);
+    padding: 10%;
+}
+
+div{
+    padding: 1%;
+    background-color: white;
+    width: fit-content;
+    margin-left: 30%;
+}
+
+form{
+    width: max-content;
+    margin: 10px;
+}
+
+h2{
+    margin-top:10px;
+    margin: 15px 5px;
+    font-weight: bold;
+}
+
+input{
+    margin: 10px;
+    outline: none;
+    background-color: rgb(236, 236, 236);
+    border: none;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+
+.text{
+    height: 40px;
+    width: 200px;
+}
+
+.mail{
+    height: 40px;
+    width: 97%;
+}
+
+.submit{
+    height: 35px;
+    width: 70px;
+    background-color: rgba(9, 106, 185, 0.89);
+    color: white;
+    padding-left:0px;
+    border: 1px solid black;
+}

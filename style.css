@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+}
+
+h1{
+    background-color:red ;
+    color: white;
+    font-size: 35px;
+}
+
+
+
+p{
+    text-align: center;
+    background-color:blue ;
+    color:white ;
+}
+
+input{
+    height: 40px; 
+    width: 400px;
+}
+
+.Submit-button{
+    height: 20px;
+    width: 60px;
+}

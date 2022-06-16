@@ -1,0 +1,47 @@
+*{
+    font-family: 'Charis SIL', serif;
+}
+
+section>div>p{
+    border: 2px solid black;
+}
+
+.content{
+    text-align: center;
+
+}
+
+.text{
+    height: 40px;
+    width: 40%;
+    margin: 15px;
+}
+
+.forgot{
+    margin-left: 25%;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table>thead>tr>th{
+    text-align: left;
+    font-weight: bold;
+    background-color: #04AA6D;
+    color: white;
+    padding: 15px;
+}
+
+table>tbody>tr>td{
+    padding: 10px;
+}
+
+.odd{
+    background-color: rgb(201, 201, 201);
+}
+
+section>div>form>label>ion-icon{
+    font-size: 25px;
+}
