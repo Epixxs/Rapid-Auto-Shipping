@@ -41,6 +41,15 @@
     cursor: pointer;
 }
 
+.div-one>nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+.div-one>nav>ul>li>a:hover{
+    color: black;
+}
+
 .div-one>nav>ul>li:hover{
     color: black;
 }
