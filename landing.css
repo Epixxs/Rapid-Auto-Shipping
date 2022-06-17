@@ -633,15 +633,3 @@ form>p>span{
     padding: 0% 10% 4% 10%;
 }
 
-.nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 2%;
-}
-
-.nav>div{
-    padding: 8px 25px;
-    border-right: 1px solid gray;
-    text-align: center;
-}
