@@ -221,6 +221,79 @@ form>p>span{
     text-align: center;
 }
 
+.section-review{
+    padding: 5%;
+}
+
+.review-section{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.review-section>div{
+    margin: 3%;
+    outline: 1px solid #d0d0d0;
+    border-radius: 5px;
+    width: 370px;
+    height: 220px;
+}
+
+.review-section>div>h2>ion-icon{
+    font-size: 10px;
+}
+
+.review-section>.one>h2>span{
+    margin-left: 21%;
+    color: #ff5722;
+}
+
+.review-section>.two>h2>span{
+    margin-left: 15%;
+    color: #ff5722;
+}
+
+.review-section>.three>h2>span{
+    margin-left: 20%;
+    color: #ff5722;
+}
+
+.review-section>div>p{
+    text-align: left;
+    font-size: 15px;
+    margin-top: 5%;
+    margin-left: 4%;
+    width: 92%;
+}
+
+.review-section>div>img{
+    height: 30px;
+}
+
+.review-section>.one>img{
+    margin-left: 62%;
+    margin-top: 8%;
+}
+
+.review-section>.two>img{
+    margin-left: 73%;
+    margin-top: 4%;
+}
+
+.review-section>.three>img{
+    margin-left: 70%;
+    margin-top: 1%;
+    height: 40px;
+}
+
+.review-section>div>h2{
+    margin-top: 2%;
+    margin-left: 4%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 .review-head{
     color: gray;
     font-size: 20px;
@@ -256,6 +329,10 @@ form>p>span{
     color: black;
     line-height: 30px;
     font-size: 20px;
+}
+
+.left{
+    text-align: left;
 }
 
 .section-four b{
@@ -473,6 +550,7 @@ form>p>span{
     display: grid;
     /* padding: 10% 5%; */
     margin-left: 5%;
+    margin-bottom: 3%;
 }
 
 .key-holding>h2{
@@ -513,7 +591,7 @@ form>p>span{
 .address{
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 .address>img{
@@ -531,6 +609,7 @@ form>p>span{
     font-size: 30px;
     margin-left: 40px;
     margin-top: 10px;
+    color: #ff5722;
 }
 
 .reach-us{
@@ -538,18 +617,28 @@ form>p>span{
     line-height: 10px;
 }
 
+.outline{
+    height: 1px;
+    width: 87vw;
+    border: 1px solid rgba(128, 128, 128, 0.473);
+    /* margin-left: 100%; */
+}
+
 .social{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     align-items: center;
     justify-content: center;
-    margin-left: 450px;
+    margin-top: 10%;
+    margin-left: 52px;
     width: 100%;
 }
 
 .social>img{
     height: 30px;
+    cursor: pointer;
 }
+
 
 .section-ten{
     background-color: black;
@@ -602,6 +691,7 @@ form>p>span{
 .cards>h2{
     color: #ff5722;
     font-size: 40px;
+    padding-top: 5%;
 }
 
 .cards>p{
@@ -611,20 +701,25 @@ form>p>span{
 .p-cards{
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    padding: 4% 10%;
+    padding: 4% 10% 10% 10%;
 }
 
 .div-cards{
     margin: 10%;
-    width: fit-content;
+    height: 66%;
+    width: 85%;
     outline: 1px solid #ff5722;
     padding: 11% 5%;
     border-radius: 5px;
-
+    text-align: center;
 }
 
 .cards>div>div>h3, p{
     text-align: center;
+}
+
+.cards>div>div>p{
+    margin-bottom: 14%;
 }
 
 .card{
@@ -645,6 +740,7 @@ form>p>span{
     border-right: 1px solid gray;
     text-align: center;
     color: #ff5722;
+    cursor: pointer;
 }
 
 .section-nine{
@@ -653,4 +749,24 @@ form>p>span{
 
 .nav>div:hover{
     color: black;
+}
+
+.key-holding>p{
+    text-align: left;
+}
+
+.imgs{
+    background-color: #ff5722;
+    border-radius: 80px;
+    height: fit-content;
+    width: fit-content;
+    margin-bottom: 5%;
+    margin-left: 37%;
+    margin-top: -28%;
+}
+
+.imgs>img{
+    height: 60px;
+    width: 65px;
+    padding: 10%;
 }
