@@ -178,7 +178,9 @@ outline: none;
     cursor: pointer;
     outline: 2px solid #ff5722;
     border: none;
-    border-radius: 3px
+    border-radius: 3px;
+    transition: 0.3s;
+    
 }
 
 .submit:hover{
@@ -412,9 +414,9 @@ form>p>span{
     margin-left: 3%;
     margin-top: 10%;
     /* height: 1%; */
-    outline: 1px solid #d0d0d0;
+    border: 1px solid #d0d0d0;
     border-radius: 5px;
-
+    transition: 0.3s;
 }
 
 .bbb{
@@ -454,7 +456,7 @@ form>p>span{
 .section-six>div>button{
     background-color: white;
     color: #ff5722;
-    border: 1px solid #ff5722;
+    border: 2px solid #ff5722;
     margin-top: 2%;
     margin-bottom: 5px;
     padding: 12px;
@@ -462,6 +464,7 @@ form>p>span{
     font-size: 18px;
     border-radius: 30px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .section-six>div>button:hover{
@@ -614,6 +617,11 @@ form>p>span{
     grid-template-columns: 20% 80%;
 }
 
+.add:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .add>ion-icon{
     font-size: 30px;
     margin-left: 40px;
@@ -693,7 +701,7 @@ form>p>span{
     margin-left: 20px;
 }
 
-.cards>h2, p{
+/* .cards>h2, p{
     text-align: center;
 }
 
@@ -731,10 +739,77 @@ form>p>span{
     margin-bottom: 14%;
 }
 
-.card{
+
+.imgs{
+    background-color: #ff5722;
+    border-radius: 80px;
+    height: fit-content;
+    width: fit-content;
+    margin-bottom: 5%;
+    margin-left: 37%;
+    margin-top: -28%;
+}
+
+.imgs>img{
+    height: 60px;
+    width: 65px;
+    padding: 10%;
+} */
+
+.cards>h2, p{
+    text-align: center;
+}
+
+.cards>h2{
+    color: #ff5722;
+    font-size: 40px;
+    padding-top: 5%;
+}
+
+.cards>p{
+    font-size: 18px;
+}
+
+.p-cards{
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    padding: 0% 10% 4% 10%;
+    padding: 4% 10% 10% 10%;
+}
+
+.div-cards{
+    margin: 10%;
+    margin-left: 5% !important;
+    height: 66%;
+    width: 90%;
+    outline: 1px solid #ff5722;
+    padding: 11% 5%;
+    border: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.cards>div>div>h3, p{
+    text-align: center;
+}
+
+.cards>div>div>p{
+    margin-bottom: 14%;
+}
+
+.imgs{
+    background-color: #ff5722;
+    border-radius: 80px;
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    bottom: 85%;
+    left: 39%;
+}
+
+.imgs>img{
+    height: 60px;
+    width: 65px;
+    padding: 10%;
 }
 
 .nav{
@@ -764,18 +839,4 @@ form>p>span{
     text-align: left;
 }
 
-.imgs{
-    background-color: #ff5722;
-    border-radius: 80px;
-    height: fit-content;
-    width: fit-content;
-    margin-bottom: 5%;
-    margin-left: 37%;
-    margin-top: -28%;
-}
 
-.imgs>img{
-    height: 60px;
-    width: 65px;
-    padding: 10%;
-}
