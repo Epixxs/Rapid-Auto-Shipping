@@ -91,8 +91,8 @@ ion-icon{
     width: 100%;
     display: grid;
     grid-template-columns: 52% 48%;
-    background-image: url();
-    background-color: black;
+    background-image: url(https://rapidautoshipping.com/assets/images/blogs-background.jpg);
+    /* background-color: black; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -215,8 +215,8 @@ form>p>span{
 .blogs-div>div{
     outline: 1px solid #d0d0d0;
     margin: 15%;
-    height: 500px;
-    width: 360px;
+    height: 580px;
+    width: 370px;
     margin-left: 10% !important;
 }
 
@@ -370,4 +370,10 @@ form>p>span{
 
 .blogs-div>div>p{
     line-height: 25px;
+}
+
+.blogs-div>div>img{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 5%;
 }
