@@ -1,322 +1,478 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-header>nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 1%;
+header > nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1%;
 }
 
-header>nav>ion-icon{
-    font-size: 24px;
+header > nav > ion-icon {
+  font-size: 24px;
 }
 
-.section-one{
-    margin: 1%;
-    background-image: url(/rapid2/assets/images/house-img.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    position: relative;
+.section-one {
+  margin: 1%;
+  background-image: url(../images/house-img.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
 }
 
-.section-one>div>p{
-    font-size: 30px;
-    margin: 10%;
+.section-one > div > p {
+  font-size: 55px;
+  margin: 12% 5%;
 }
 
-.section-one>div{
-    border: 1px solid;
-    height: 180px;
-    width: 280px;
-    position: absolute;
-    left: 2%;
-    top: 60%;
-    color: white;
-    background-color: #282b33;
+.section-one > div {
+  border: 1px solid;
+  height: 300px;
+  width: 450px;
+  position: absolute;
+  left: 2%;
+  top: 40%;
+  color: white;
+  background-color: #282b33da;
 }
 
-.section-two{
-    margin-top: 10%;
-    margin: 1%;
+.section-two {
+  margin-top: 10%;
+  margin: 1%;
 }
 
-.section-two>div>h2{
-    text-align: center;
-    font-size: 35px;
-    color: #d16833;
+.section-two > div > h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #d16833;
+  margin-top: 5%;
 }
 
-.section-two>div>p{
-    text-align: center;
+.section-two > div > p {
+  text-align: center;
+  font-size: 15px;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    padding: 0% 18%;
-    margin-top: 4%;
-    background-color: #e4e4e4;
+.grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0% 5%;
+  margin-top: 8%;
+  background-color: #e4e4e4;
+  height: 40vh;
 }
 
-.grid>div{
-    border: 1px solid #d0d0d0;
-    background-color: white;
-    padding: 5%;
-    width: 200px;
-    height: 120px;
-    margin-left: 10%;
-    font-size: 12px;
+.grid > div {
+  border: 1px solid #d0d0d0;
+  background-color: white;
+  padding: 5%;
+  width: 280px;
+  height: 250px;
+  margin-top: -20% !important;
+  font-size: 12px;
+  border-radius: 5px;
 }
 
-.grid>div>h3{
-    margin-top: 10%;
+.grid > div > img {
+  height: 60px;
+  margin-top: 3%;
+  margin-left: 31%;
+  background-color: #fc5f17;
+  padding: 8px;
+  border-radius: 30px;
 }
 
-.section-three{
-    background-color: #f1f1f1;
-    padding-bottom: 8%;
-}
-.grid-two{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    padding: 10%;
+.grid > div > h3 {
+  margin-top: 5%;
+  text-align: center;
+  margin-right: 15px;
+  font-size: 30px;
 }
 
-.grid-two>div{
-    border: 1px solid #d0d0d0;
-    height: 100vh;
-    width: 100%;
+.grid > div > p {
+  margin-top: 5px;
+  margin-right: 12px;
+  text-align: center;
+  font-size: 17px;
 }
 
-.grid-two>div>img{
-    margin-top: 10%;
-    margin-bottom: 15%;
-    width: 50%;
-    border-radius: 5px;
+.section-three {
+  background-color: #f1f1f1;
+  padding-bottom: 8%;
+}
+.grid-two {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 10%;
 }
 
-.mission{
-    background-color: #fc5f17;
-    color: white;
-    padding-left: 20%;
+.grid-two > div {
+  border: 1px solid #d0d0d0;
+  height: 100vh;
+  margin: 5%;
 }
 
-.mission>p{
-    margin-top: 5%;
-    width: 80%;
+.grid-two > div > img {
+  margin: 5% 10%;
+  width: 80%;
+  border-radius: 5px;
 }
 
-.goals{
-    width: 80%;
-    padding-right: 25%;
-    padding-top: 5%;
-    padding-left: 8%;
+.mission {
+  background-color: #fc5f17;
+  color: white;
 }
 
-.goals>p{
-    margin-top: 5%;
+.mission > h4 {
+  text-align: center;
+  font-size: 35px;
 }
 
-.values{
-    background-color: #282b33;
-    color: white;
-    padding-left: 20%;
+.mission > p {
+  margin: 5%;
+  width: 90%;
+  font-size: 19px;
+  text-align: justify;
 }
 
-.values>p{
-    margin-top: 5%;
-    width: 80%;
+.goals > h4 {
+  margin-top: 10%;
+  text-align: center;
+  font-size: 35px;
 }
 
-.section-three>h2{
-    text-align: center;
-    font-size: 30px;
+.goals > p {
+  margin: 5%;
+  width: 90%;
+  font-size: 19px;
+  text-align: justify;
 }
 
-.section-four{
-    background-color: #282b33;
-    padding-bottom: 5%;
+.values {
+  background-color: #282b33;
+  color: white;
 }
 
-.grid-three{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    padding: 0% 15%;
-}
-.grid-three>div{
-    background-color: white;
-    height: 40vh;
-    text-align: center;
-    margin-top: -30%;
+.values > h4 {
+  text-align: center;
+  font-size: 35px;
 }
 
-.grid-three>div>h3{
-    margin-top: 22%;
-    font-size: 25px;
+.values > p {
+  margin: 5%;
+  width: 90%;
+  font-size: 19px;
+  text-align: justify;
 }
 
-.grid-three>div>p{
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 3%;
+.section-three > h2 {
+  text-align: center;
+  font-size: 30px;
 }
 
-.grid-three>div>img{
-    width: 100%;
-    height: 100%;
+.section-four {
+  background-color: #282b33;
+  padding-bottom: 5%;
 }
 
-.grid-three>div>button{
-    margin-top: 5%;
-    height: 13%;
-    width: 33%;
-    border: 2px solid rgb(211, 161, 69);
-    border-radius: 5px;
-    background-color: white;
-    transition: 0.3s;
+.grid-three {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 0% 8%;
+}
+.grid-three > div {
+  background-color: white;
+  height: 80vh;
+  text-align: center;
+  margin-top: -15%;
 }
 
-.grid-three>div>button:hover{
-    background-color: rgb(211, 161, 69);
-    color: white;
+.grid-three > div > div > h3 {
+  margin-top: 22%;
+  font-size: 25px;
+  margin-top: 3%;
 }
 
-.strategies{
-    color: white;
-    margin-top: 10%;
+.grid-three > div > div > p {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 3%;
+  line-height: 25px;
 }
 
-.strategies>h2{
-    font-size: 40px;
-    text-align: center;
+.grid-three > div > img {
+  width: 100%;
+  height: 80vh;
 }
 
-.strategies>p{
-    width: 60%;
-    margin-top: 2%;
-    margin-left: 20%;
-    line-height: 30px;
+.grid-three > div > div > button {
+  margin-top: 5%;
+  height: 13%;
+  width: 33%;
+  border: 2px solid rgb(211, 161, 69);
+  border-radius: 5px;
+  background-color: white;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
-.strategies>button{
-    margin-left: 45%;
-    width: 11%;
-    height: 40px;
-    border: 2px solid rgb(211, 161, 69);
-    border-radius: 5px;
-    background-color: white;
-    transition: 0.3s;
+.grid-three > div > div > button:hover {
+  background-color: rgb(211, 161, 69);
+  color: white;
 }
 
-.strategies>button:hover{
-    background-color: rgb(211, 161, 69);
-    color: white;
+.expert {
+  display: grid;
+  grid-template-rows: 50% 50%;
 }
 
-.grid-four{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    padding: 5% 15%;
-    padding-bottom: 0% !important;
+.expert > div > h3 {
+  margin-top: 3%;
 }
 
-.invest>h4{
-    font-size: 20px;
+.winner {
+  display: grid;
+  grid-template-rows: 50% 50%;
 }
 
-.invest>p{
-    margin-top: 3%;
+.strategies {
+  color: white;
+  margin-top: 10%;
 }
 
-.invest{
-    padding: 5%;
+.strategies > h2 {
+  font-size: 40px;
+  text-align: center;
 }
 
-.grid-four>div>img{
-    width: 90%;
-    height: 90%;
-    margin-top: 3%;
+.strategies > p {
+  width: 60%;
+  margin-top: 2%;
+  margin-left: 20%;
+  line-height: 30px;
+  text-align: justify;
 }
 
-.grid-five{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    padding: 0% 10%;
+.strategies > button {
+  margin-left: 45%;
+  width: 11%;
+  height: 40px;
+  border: 2px solid rgb(211, 161, 69);
+  border-radius: 5px;
+  background-color: white;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
-.grid-five>div{
-    background-color: #fc5f17;
-    color: white;
-    margin: 40%;
-    padding: 8% 31% 7% 13%;
-    text-align: center;
+.strategies > button:hover {
+  background-color: rgb(211, 161, 69);
+  color: white;
 }
 
-.grid-five>div>h2{
-    font-size: 30px;
-    text-align: center;
+.building-company {
+  background-color: #fc5f17;
 }
 
-.grid-six{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    height: 75vh;
-    border: 2px solid;
+.building-company > div {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 5%;
+  height: 100vh;
 }
 
-.grid-six>div>h2{
-    margin-top: 5%;
-    margin-left: 2%;
-    margin-bottom: 2% !important;
+.first-grid > img {
+  height: 20%;
+  border-radius: 30px;
+  margin-left: 40%;
 }
 
-.grid-six>div>p{
-    margin-left: 2%;
+.first-grid > h3 {
+  margin-top: 25%;
+  background-color: white;
+  margin-right: 5%;
+  padding-bottom: 2%;
+  padding-top: 2%;
 }
 
-.grid-six>div>input{
-    height: 50px;
+.first-grid > p {
+  background-color: white;
+  margin-right: 5%;
 }
 
-.text{
-    margin-top: 5%;
-    margin-left: 2%;
-    outline: none;
-    border: none;
-    border-bottom: 2px solid #282b33;
+.middle-grid > img {
+  width: 100%;
+  height: 81%;
 }
 
-.number, .date, .massege{
-    margin-left: 2%;
-    outline: none;
-    border: none;
-    border-bottom: 2px solid #282b33;
+.middle-grid > p {
+  text-align: justify;
 }
 
-.grid-six>div>button{
-    margin-left: 2%;
-    padding: 1%;
-    width: 75px;
-    background-color: white;
-    color: #282b33;
-    outline: none;
-    border: 2px solid #282b33;
-    transition: 0.3s;
+.parent {
+  height: 81%;
+  background-color: white;
+  width: 300px;
+  margin-left: 5%;
+  position: relative;
 }
 
-.grid-six>div>button:hover{
-    background-color: #282b33;
-    color: white;
+.child-two > p {
+  text-align: justify;
+  width: 95%;
 }
 
-.grid-six>div>img{
-    height: 73vh;
-    width: 100%;
+.child {
+  height: fit-content;
+  width: 600px;
+  background-color: #282b33;
+  color: white;
+  text-align: justify;
+  padding: 5%;
+  position: absolute;
+  right: 1%;
+  line-height: 25px;
+}
+
+.child > h3 {
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.child-two {
+  padding: 10%;
+  margin-top: 80%;
+}
+
+.grid-four {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 5% 8%;
+  padding-bottom: 0% !important;
+}
+
+.invest > h4 {
+  font-size: 30px;
+}
+
+.invest > p {
+  margin-top: 3%;
+  font-size: 15px;
+}
+
+.invest {
+  padding: 5%;
+}
+
+.grid-four > div > img {
+  width: 90%;
+  height: 90%;
+  margin-top: 3%;
+}
+
+.grid-five {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0% 6%;
+  margin-right: 9%;
+}
+
+.grid-five > div {
+  background-color: #fc5f17;
+  color: white;
+  margin: 40%;
+  margin-left: 30% !important;
+  /* padding: 8% 31% 7% 13%; */
+  text-align: center;
+  height: 28vh;
+  width: 200px;
+}
+
+.grid-five > div > h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 20%;
+  font-weight: 800;
+}
+
+.grid-six {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 75vh;
+  margin: 1%;
+}
+
+.grid-six > div > h2 {
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.grid-six > div > p {
+  margin-left: 2%;
+}
+
+.grid-six > div > input {
+  height: 50px;
+}
+
+.text {
+  margin-top: 5%;
+  margin-left: 2%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #282b33;
+  width: 40%;
+}
+
+.number,
+.date,
+.massege {
+  margin-left: 2%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #282b33;
+}
+
+.number {
+  width: 40%;
+}
+
+.date {
+  width: 40%;
+}
+
+.massege {
+  width: 83%;
+}
+
+.grid-six > div > button {
+  margin-left: 2%;
+  padding: 1%;
+  width: 75px;
+  background-color: white;
+  color: #282b33;
+  outline: none;
+  border: 2px solid #282b33;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.grid-six > div > button:hover {
+  background-color: #282b33;
+  color: white;
+}
+
+.grid-six > div > img {
+  height: 73vh;
+  width: 100%;
 }
