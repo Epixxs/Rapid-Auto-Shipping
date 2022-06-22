@@ -1,0 +1,465 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header > nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1%;
+}
+
+header > nav > ion-icon {
+  font-size: 24px;
+}
+
+.section-one {
+  margin: 1%;
+  background-image: url(../Images/house-img.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.section-one > div > p {
+  font-size: 55px;
+  margin: 12% 5%;
+}
+
+.section-one > div {
+  border: 1px solid;
+  height: 300px;
+  width: 450px;
+  position: absolute;
+  left: 2%;
+  top: 40%;
+  color: white;
+  background-color: #282b33da;
+}
+
+.section-two {
+  margin-top: 10%;
+  margin: 1%;
+}
+
+.section-two > div > h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #d16833;
+  margin-top: 5%;
+}
+
+.section-two > div > p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.grid {
+  display: flex;
+  padding: 0% 5%;
+  margin-top: 8%;
+  background-color: #e4e4e4;
+  height: 40vh;
+}
+
+.grid > div {
+  border: 1px solid #d0d0d0;
+  background-color: white;
+  margin: 1%;
+  margin-top: -5% !important;
+  height: 100%;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.grid > div > img {
+  height: 60px;
+  margin-top: 3%;
+  margin-left: 36%;
+  background-color: #fc5f17;
+  padding: 8px;
+  border-radius: 30px;
+}
+
+.grid > div > h3 {
+  margin-top: 5%;
+  text-align: center;
+  margin-right: 15px;
+  font-size: 30px;
+}
+
+.grid > div > p {
+  margin-top: 5px;
+  margin-right: 12px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.section-three {
+  background-color: #f1f1f1;
+  padding-bottom: 8%;
+}
+
+.grid-two {
+  display: flex;
+  padding: 5%;
+}
+
+.grid-two > div {
+  border: 1px solid #d0d0d0;
+  height: 100vh;
+  width: 100vw;
+  margin: 2%;
+}
+
+.grid-two > div > img {
+  margin: 5% 10%;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.mission {
+  background-color: #fc5f17;
+  color: white;
+}
+
+.mission > h4 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.mission > p {
+  margin: 5%;
+  font-size: 19px;
+  text-align: justify;
+}
+
+.goals > h4 {
+  margin-top: 10%;
+  text-align: center;
+  font-size: 35px;
+}
+
+.goals > p {
+  margin: 5%;
+  font-size: 19px;
+  text-align: justify;
+}
+
+.values {
+  background-color: #282b33;
+  color: white;
+}
+
+.values > h4 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.values > p {
+  margin: 5%;
+  font-size: 19px;
+  text-align: justify;
+}
+
+.section-three > h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.section-four {
+  background-color: #282b33;
+  padding-bottom: 5%;
+}
+
+.grid-three {
+  display: flex;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 0% 8%;
+}
+
+.grid-three > div {
+  background-color: white;
+  height: 80vh;
+  text-align: center;
+  margin-top: -15%;
+}
+
+.grid-three > div > div > h3 {
+  margin-top: 22%;
+  font-size: 25px;
+  margin-top: 3%;
+}
+
+.grid-three > div > div > p {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 3%;
+  line-height: 25px;
+}
+
+.grid-three > div > img {
+  height: 80vh;
+  width: 27vw;
+}
+
+.grid-three > div > div > button {
+  margin-top: 5%;
+  height: 45px;
+  width: 33%;
+  border: 2px solid rgb(211, 161, 69);
+  border-radius: 5px;
+  background-color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.grid-three > div > div > button:hover {
+  background-color: rgb(211, 161, 69);
+  color: white;
+}
+
+.strategies {
+  color: white;
+  margin-top: 10%;
+}
+
+.strategies > h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.strategies > p {
+  width: 60%;
+  margin-top: 2%;
+  margin-left: 20%;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.strategies > button {
+  margin-left: 45%;
+  width: 11%;
+  height: 40px;
+  border: 2px solid rgb(211, 161, 69);
+  border-radius: 5px;
+  background-color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.strategies > button:hover {
+  background-color: rgb(211, 161, 69);
+  color: white;
+}
+
+.building-company {
+  background-color: #fc5f17;
+}
+
+.building-company > div {
+  display: flex;
+  height: 100vh;
+  padding: 5%;
+}
+
+.first-grid {
+  margin: -10px;
+}
+
+.first-grid > img {
+  height: 200px;
+  width: 200px;
+  border-radius: 140px;
+  margin-left: 60%;
+}
+
+.first-grid > h3 {
+  background-color: white;
+  margin-top: 9%;
+  margin-right: 10%;
+  padding: 5%;
+  padding-bottom: 0% !important;
+  width: 500px;
+}
+
+.first-grid > p {
+  background-color: white;
+  padding: 5%;
+  padding-bottom: 12% !important;
+  width: 500px;
+}
+
+.middle-grid > img {
+  width: 280px;
+  height: 450px;
+  margin-left: 30px;
+}
+
+.middle-grid > p {
+  text-align: justify;
+}
+
+.parent {
+  height: 450px;
+  background-color: white;
+  width: 300px;
+  margin-left: 5%;
+  position: relative;
+}
+
+.child-two > p {
+  text-align: justify;
+  width: 95%;
+}
+
+.child {
+  height: fit-content;
+  width: 600px;
+  background-color: #282b33;
+  color: white;
+  text-align: justify;
+  padding: 5%;
+  position: absolute;
+  right: 1%;
+  line-height: 25px;
+}
+
+.child > h3 {
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.child-two {
+  padding: 10%;
+  margin-top: 70%;
+}
+
+.grid-four {
+  display: flex;
+  padding: 4% 5%;
+  padding-bottom: 0% !important;
+}
+
+.invest > h4 {
+  font-size: 30px;
+}
+
+.invest > p {
+  margin-top: 3%;
+  font-size: 15px;
+}
+
+.invest {
+  padding: 3%;
+}
+
+.grid-four > div > img {
+  width: 600px;
+  height: 85%;
+  margin-top: 3%;
+}
+
+.grid-five {
+  display: flex;
+  padding: 0% 3%;
+  margin-right: 5%;
+}
+
+.grid-five > div {
+  background-color: #fc5f17;
+  color: white;
+  margin: 4%;
+  margin-left: 10% !important;
+  text-align: center;
+  height: 22vh;
+  width: 500px;
+}
+
+.grid-five > div > h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 20%;
+  font-weight: 800;
+}
+
+.grid-six {
+  display: flex;
+  height: 75vh;
+  margin: 1%;
+}
+
+.grid-six > div > h2 {
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.grid-six > div > p {
+  margin-left: 2%;
+}
+
+.grid-six > div > input {
+  height: 50px;
+}
+
+.text {
+  margin-top: 5%;
+  margin-left: 2%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #282b33;
+  width: 40%;
+}
+
+.number,
+.date,
+.massege {
+  margin-left: 2%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #282b33;
+}
+
+.number {
+  width: 40%;
+}
+
+.date {
+  width: 40%;
+}
+
+.massege {
+  width: 83%;
+}
+
+.grid-six > div > button {
+  margin-left: 2%;
+  padding: 1%;
+  width: 75px;
+  background-color: white;
+  color: #282b33;
+  outline: none;
+  border: 2px solid #282b33;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.grid-six > div > button:hover {
+  background-color: #282b33;
+  color: white;
+}
+
+.grid-six > div > img {
+  height: 73vh;
+  width: 90%;
+  margin-left: 30%;
+}
